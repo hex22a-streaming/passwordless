@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:5.22.0"],\
             ["@typescript-eslint/parser", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:5.22.0"],\
+            ["base64-js", "npm:1.5.1"],\
             ["css-minimizer-webpack-plugin", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:3.4.1"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:19.0.4"],\
@@ -2853,6 +2854,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/balanced-match-npm-2.0.0-d9722af241-9a5caad6a2.zip/node_modules/balanced-match/",\
           "packageDependencies": [\
             ["balanced-match", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["base64-js", [\
+        ["npm:1.5.1", {\
+          "packageLocation": "./.yarn/cache/base64-js-npm-1.5.1-b2f7275641-669632eb37.zip/node_modules/base64-js/",\
+          "packageDependencies": [\
+            ["base64-js", "npm:1.5.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8031,6 +8041,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:5.22.0"],\
             ["@typescript-eslint/parser", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:5.22.0"],\
+            ["base64-js", "npm:1.5.1"],\
             ["css-minimizer-webpack-plugin", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:3.4.1"],\
             ["eslint", "npm:8.15.0"],\
             ["eslint-config-airbnb", "virtual:db6dd3444807ce2520765b14d3f5da4b1b190b646e54b54d6c2d06a4b831cbd33b5909cb9826fd7dee2cef604db2a9c23676f738cbcd1b9026816f51fdb1747f#npm:19.0.4"],\

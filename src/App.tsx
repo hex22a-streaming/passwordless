@@ -1,45 +1,14 @@
-import React, { Component } from 'react';
-import UserService from './services/UserService';
+import React from 'react';
+import SignUpForm from './components/SignUpForm';
+import LogInForm from './components/LogInForm';
 
-interface IAppState {
-  username: string,
+function App() {
+  return (
+    <>
+      <SignUpForm />
+      <LogInForm />
+    </>
+  );
 }
 
-// eslint-disable-next-line react/prefer-stateless-function
-export default class App extends Component<{}, IAppState> {
-  constructor(props) {
-    super(props);
-    this.state = {
-      username: '',
-    };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({ username: event.target.value });
-  }
-
-  handleSubmit(event) {
-    const { username } = this.state;
-
-    UserService.crateUser(username);
-
-    event.preventDefault();
-  }
-
-  render() {
-    const { username } = this.state;
-
-    return (
-      <form onSubmit={this.handleSubmit}>
-        <label htmlFor="username">
-          Username
-          <input type="text" value={username} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
-    );
-  }
-}
+export default App;
